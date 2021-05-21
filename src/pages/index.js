@@ -15,6 +15,7 @@ const HomePage = () => {
         <EventList events={[{
                 id:0,
                 title:"Create a Twitch Extension with Darrik Moberg",
+                // TODO hardcoded date?
                 date: new Date('November 25, 2019 10:30:00'),
                 description: "If you want to show specific information on a Twitch profile, how do you do that? In this episode, Learn With Jason moderator Darrik Moberg (https://twitter.com/MDarrik) teaches us how to create custom extensions for Twitch that work on both the website and apps."
         }]} />
